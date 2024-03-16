@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taksham's Resturant</title>
+    <style>
+        .header{
+            display: flex;
+            background-color: whitesmoke;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(70, 70, 70);
+        }
+        .headerLinks{
+            margin-top: 2.5%;
+            margin-left: 2%;
+            display: flex;
+            gap: 20px;
+        }
+        #Home img {
+           width: 100%;
+           height: 500px;
+        }
+        .textOnImage {
+            margin-top: -370px;
+            margin-left: 224px;
+            color: white;
+            font-size: 25px;
+        }
+        .textOnImage h4 {
+            color: #DAA520;
+            font-size: 38px;
+        }
+        .textOnImage button{
+            background-color: transparent;
+            border: 2px solid #daa520;
+            color: white;
+            border-radius: 20px;
+            padding: 10px 15px;
+            margin-right: 5px;
+        }
+        #About {
+            margin-top: -38%;
+             display: flex;
+             justify-content: space-evenly;
+             color: white;
+             margin-left: 5%;
+              margin-right: 2%;
+             gap: 2%;
+             padding: 3%;
+        }
+
+        .imageInAbout img{
+            width: 628px;
+            height: 430px;
+        }
+        
+        .backgroundAbout{
+            margin-top: 8.3%;
+        }
+        .backgroundAbout img{
+           width: 100%;
+           height: 500px;
+        }
+        #whyUs{
+            margin-top: -2.5%;
+            background-color: black;
+            color: white;
+        }
+        #whyUs h1{
+            color:#d18000 ;
+        }
+        .whyUsCards{
+            display: flex;
+            margin: 5% 0% 5% 0%;
+        }
+        .usCard{
+            border: 1px solid;
+            background-color: gray;
+            margin-left: 2%;
+            padding-left: 2%;
+            padding-bottom: 2%;
+            margin-right: 2%;
+        }
+        .usCard:hover{
+            background-color:#0e0901 ;
+            color: white;
+        }
+        #Menu{
+            background-color: rgb(62, 47, 27);
+            color: white;
+        }
+        .headerInMenu{
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        #Menu h4{
+            color: #d18000;
+        }
+        .menuItems{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .price{
+            color: #daa520;
+        }
+        .menuList img{
+            border-radius: 75%;
+            width: 50px;
+            height: 50px;
+            margin-top: 6%;
+        }
+        .menuList{
+            display: flex;
+        }
+        #Specials{
+            background-color: #0e0901;
+            color: white;
+        }
+        .specialPic{
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: 5%;
+            margin-top: 5%;
+            gap: 5px;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        .specialPic img{
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            margin-top: -18%
+        }
+        .specialPic a{
+            font-size: 20px;
+        }
+        #Specials h4{
+            color: #d18000;
+        }
+        .none{
+            background-color: #d18000;
+            width: 3px;
+        }
+        .text{
+            margin-left: 5%;
+        }
+        .imageInGallery{
+            display: flex;
+        }
+        .imageInGallery img{
+            width: 100%;
+        }
+        .reservationForm input{
+            border-color:#d18000;
+            background-color: black;
+            height: 50px;
+            color: white;
+        }
+        .reservationForm textarea{
+            border-color:#d18000;
+            background-color: black;
+            height: 50px;
+        }
+        .reservationForm button{
+            border-radius: 20px;
+            color: white;
+            background-color: #d18000;
+            padding: 10px;
+            margin-top: 7px;
+        }
+        #Contact{
+            background-color: black;
+            color: white;
+        }
+        #Contact iframe{
+            width: 100%;
+            height: 500px;
+        }
+        .footer{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .footer input{
+            background-color: transparent;
+            border-radius: 2%;
+            height: 15%;
+        }
+        .footer button{
+            border-radius:40%;
+            border-color: #d18000;
+            color: white;
+            background-color: #d18000;
+            height: 15% ;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>Taksham's Resturant</h1>
+        </div>
+        <div class="headerLinks">
+            <div class="headerLinks1"><a href="#Home">Home</a></div>
+            <div class="headerLinks1"><a href="#About">About</a></div>
+            <div class="headerLinks1"><a href="#Menu">Menu</a></div>
+            <div class="headerLinks1"><a href="#Events">Events</a></div>
+        </div>
+    </div>
+    <div id="Home">
+        <div class="homeImage">
+            <img src="https://images.unsplash.com/photo-1484659619207-9165d119dafe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdHVyYW50fGVufDB8fDB8fHww">
+        </div>
+        <div class="textOnImage">
+            <h4>Welcome to Taksham's Resturant</h4>
+            <p>Delivering great food for more than 18 years!</p>
+            <button>Our Menu</button>
+            <button>Book A Table</button>
+        </div><br>
+    </div>
+    <div class="backgroundAbout">
+        <img src="https://images.unsplash.com/photo-1638162438698-3c518e34769c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YmxhY2slMjByb3NlfGVufDB8fDB8fHww">
+    </div>
+    <div id="About">
+        <div class="textOnAbout">
+            <h1>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <ul>
+                <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur</li>
+            </ul>
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div class="imageInAbout">
+           <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/about.jpg">
+        </div>
+    </div>
+    <div id="whyUs">
+        <br><br>
+        <h1>Why Choose Our Restaurant?</h1>
+        <div class="whyUsCards">
+            <div class="usCard">
+                <h1>01</h1>
+                <h2>Lorem Ipsum</h2>
+                <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat.Et consectetur ducimus vero placeat</p>
+            </div>
+            <div class="usCard">
+                <h1>02</h1>
+                <h2>Repellat Nihil</h2>
+                <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat.Et consectetur ducimus vero placeat</p>
+            </div>
+            <div class="usCard">
+                <h1>03</h1>
+                <h2>Ad ad velit qui</h2>
+                <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat.Et consectetur ducimus vero placeat</p>
+            </div>
+        </div><br>
+    </div>
+    <div id="Menu">
+        <h1>Menu</h1>
+        <h4>Check Our Tasty Menu</h4>
+        <div class="headerInMenu">
+            <div><h4>All</h4></div>
+            <div><h4>Starters</h4></div>
+            <div><h4>Salads</h4></div>
+            <div><h4>Specially</h4></div>
+        </div>
+        <div class="menuItems">
+            <div>
+                <div class="menuList">
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/lobster-bisque.jpg">
+                    <div>
+                        <h2>Lobster Bisque........................................<span class="price">$5.95</span></h2>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+                <div class="menuList">
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/lobster-bisque.jpg">
+                    <div>
+                        <h2>Lobster Bisque........................................<span class="price">$5.95</span></h2>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+                <div class="menuList">
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/lobster-bisque.jpg">
+                    <div>
+                        <h2>Lobster Bisque........................................<span class="price">$5.95</span></h2>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+                <div class="menuList">
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/lobster-bisque.jpg">
+                    <div>
+                        <h2>Lobster Bisque........................................<span class="price">$5.95</span></h2>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="menuList">
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/lobster-bisque.jpg">
+                    <div>
+                        <h2>Lobster Bisque........................................<span class="price">$5.95</span></h2>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+                <div class="menuList">
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/lobster-bisque.jpg">
+                    <div>
+                        <h2>Lobster Bisque........................................<span class="price">$5.95</span></h2>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+                <div class="menuList">
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/lobster-bisque.jpg">
+                    <div>
+                        <h2>Lobster Bisque........................................<span class="price">$5.95</span></h2>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+                <div class="menuList">
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/lobster-bisque.jpg">
+                    <div>
+                        <h2>Lobster Bisque........................................<span class="price">$5.95</span></h2>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="Specials">
+        <h1>Specials</h1>
+        <h4>Check our specials</h4>
+        <div class="specialPic">
+            <div class="text"> 
+                <br><br>
+                <a href="#">Under praesentium sed</a>
+                    <a href="#">Pariatur explicabo vel</a>
+                   <a href="#">Nostrum qui quasi</a> 
+            </div>
+            <div class="none"></div>
+            <div class="text">
+                <h1>Et blanditiis nemo veritatis excepturi</h1>
+                <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pa</p>
+            </div>
+            <div>
+                <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/specials-2.png">
+            </div>
+        </div>
+        <div id="gallery">
+            <h1>Gallery</h1>
+            <h4>Some photos from Our Restaurant</h4><br><br>
+            <div class="imageInGallery">
+                <div>
+                    <div><img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-1.jpg"></div>
+                    <div><img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-2.jpg"></div>
+                </div>
+                <div>    
+                    <div><img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-3.jpg"></div>
+                    <div><img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-4.jpg"></div>
+                </div>
+                <div>
+                    <div><img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-5.jpg"></div>
+                    <div><img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-6.jpg"></div>
+                </div> 
+                <div>    
+                    <div><img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-7.jpg"></div>
+                    <div><img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-8.jpg"></div>
+                </div>
+        </div>
+    </div>
+    <div id="Reservation">
+        <h1>Reaservation</h1>
+        <h4>Book A Table</h4>
+       <center><form class="reservationForm">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Email"><br><br>
+            <input type="text" placeholder="Your Phone">
+            <input type="date" placeholder="dd-mm-yyyy"><br><br>
+            <input type="time" placeholder="--:--">
+            <input type="text" placeholder="Number Of People"><br><br>
+            <textarea name="" id="" cols="25" rows="4"></textarea><br><br>
+            <button>Book A table</button>
+        </form></center>
+    </div>
+    </div>
+    <div id="Contact">
+        <h1>Contact</h1>
+        <h4>Contact Us</h4>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.382404357058!2d76.7011090743177!3d30.70764828684671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390feef6eaf53c6d%3A0x47bd81467c6818f!2sPaxcom%20India%20Pvt.%20Ltd%2C%20Paymentus%20India!5e0!3m2!1sen!2sin!4v1710576545307!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="footer">
+            <div class="footerCards">
+                <h1>Taksham's Resturant</h1>
+                <address>A108 Adam StreetNY 535022, USA</address>
+                <h5>Phone: +1 5589 55488 55</h5>
+                <h5>Email: info@example.com</h5>
+            </div>
+            <div class="footerCards">
+                <h1>Useful Links</h1>
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Services</li>
+                    <li>Term of service</li>
+                    <li>Privacy policy</li>
+                </ul>
+            </div>
+            <div class="footerCards">
+                <h1>Our Services</h1>
+                <ul>
+                    <li>Web Design</li>
+                    <li>Web Development</li>
+                    <li>Product Management</li>
+                    <li>Marketing</li>
+                    <li>Graphic Designer</li>
+                </ul>
+            </div>
+            <div class="footerCards">
+                <h1>Our Newsletter</h1>
+                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p><br><br>
+                <input type="text">
+                <button>Subsribe</button>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
